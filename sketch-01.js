@@ -12,6 +12,7 @@ const sketch = () => {
     context.fillStyle = 'white';
     context.fillRect(0, 0, width, height);
     context.lineWidth = width * 0.01;
+    context.strokeStyle = "#A020F0";
 
     const w = width * 0.10;
     const h = height * 0.10;
